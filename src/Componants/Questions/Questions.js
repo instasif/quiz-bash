@@ -6,7 +6,7 @@ const Questions = () => {
     const qa = useLoaderData();
     const data = qa.data.questions;
     return (
-        <div>
+        <div className='items-center grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-10 place-items-center mt-10'>
             {
                 data.map( question => <Question question={question}/>)
             }
