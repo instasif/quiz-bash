@@ -5,12 +5,17 @@ import Card from '../Cards/Card';
 const Home = () => {
     const cards = useLoaderData();
     const data = cards.data;
+
+    const quitHandler = () =>{
+        console.log('ok')
+    }
+
     return (
         <div>
-            <h1 className='text-4xl text-center font-bold mt-4 text-cyan-400'>Welcome to Quiz Bash</h1>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>   
+            <h1 className='text-4xl text-center font-bold mt-5 text-cyan-400'>Welcome to Quiz Bash</h1>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>   
             {
-                data.map( card => <Card key={card.id} card={card}></Card>)
+                data.map( card => <Card key={card.id} card={card} quitHandler={quitHandler}></Card>)
             }
             </div>
         </div>
