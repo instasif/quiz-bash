@@ -5,7 +5,6 @@ import Card from '../Cards/Card';
 const Home = () => {
     const cards = useLoaderData();
     const data = cards.data;
-    console.log(data);
     return (
         <div>
             <h1 className='text-4xl text-center font-bold mt-4 text-cyan-400'>Welcome to Quiz Bash</h1>

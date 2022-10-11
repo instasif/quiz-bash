@@ -9,7 +9,7 @@ const Header = () => {
         <a href='/' className="btn btn-ghost text-white normal-case text-xl">QUIZbash</a>
     </div>
     <div className="flex-none">
-        <ul className="menu menu-horizontal p-0">
+        <ul className="menu menu-horizontal p-0 text-white">
         <li><Link to='/'>Home</Link></li>
         </ul>
     </div>
