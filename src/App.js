@@ -44,7 +44,7 @@ function App() {
 }
 
 export default App;
-// https://github.com/programming-hero-web-course2/b6-quiz-crackerz-instasif
+//  
 
 
 // Get all quiz topics: https://openapi.programming-hero.com/api/quiz
