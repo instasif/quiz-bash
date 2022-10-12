@@ -5,7 +5,6 @@ import { Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
 const Statistic = () => {
     const datas = useLoaderData();
     const data = datas.data;
-    console.log(data);
     return (
         <div>
             <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 place-items-center mt-10'>

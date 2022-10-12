@@ -15,7 +15,12 @@ const Header = () => {
         <li><Link to='/blogs'>Blogs</Link></li>
         </ul>
     </div>
-</div>
+            </div>
+            
+            <div className='flex justify-center'>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKKIvB03HGbiEIUC02_XugPVlMNSoR32C9yCY2A3sq&s" alt="" />
+            <h1 className='text-4xl text-center font-bold mt-5 text-cyan-400'>Welcome to Quiz Bash</h1>
+            </div>
         </div>
     );
 };

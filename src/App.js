@@ -32,7 +32,8 @@ function App() {
           return fetch(`https://openapi.programming-hero.com/api/quiz/${params.qaId}`)
         },
         element: <Questions/>
-      }
+      },
+      {path: '*', element: <h1>4O4 error!!</h1>}
     ]
   }
   ]);
