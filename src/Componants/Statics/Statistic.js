@@ -8,7 +8,7 @@ const Statistic = () => {
     console.log(data);
     return (
         <div>
-            <div className='flex justify-center mt-10'>
+            <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 place-items-center mt-10'>
             <LineChart width={500} height={400} data={data}>
             <Line type="monotone" dataKey="total" stroke="#82ca9d" />
             <XAxis dataKey="name" />
